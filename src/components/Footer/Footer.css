@@ -1,0 +1,20 @@
+.footer {
+  background-color: rgb(114, 0, 112);
+  height: 14rem;
+  padding: 5rem;
+  color: white;
+}
+
+.headname h2 {
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+
+.caption {
+  max-width: 60%;
+}
+
+.copyright {
+  padding-bottom: 0px;
+  margin-bottom: 0%;
+}

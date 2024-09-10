@@ -1,0 +1,75 @@
+.Hero {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+  display: flex;
+  align-items: center; 
+}
+
+.hero-left {
+  flex: 1;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-left h2 {
+  color: #090909;
+  font-size: 22px; 
+  font-weight: 600;
+}
+
+.hero-left p {
+  color: #171717;
+  font-size: 38px; 
+  font-weight: 400; 
+  margin: 0; 
+}
+
+.hero-hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.hero-hand-icon img {
+  width: 35px;
+}
+
+.hero-latest-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; 
+  width: 250px; 
+  height: 50px; 
+  border-radius: 25px; 
+  background: red;
+  color: white;
+  font-size: 18px; 
+  font-weight: 500;
+  cursor: pointer;
+  
+}
+
+.hero-latest-button img {
+  width: 20px; 
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-right img {
+  max-width: 100%; /* Ensure image fits within container */
+  max-height: 100%; /* Ensure image fits within container */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 300px; /* Limit maximum height */
+ 
+ /* Add border radius */
+  
+}

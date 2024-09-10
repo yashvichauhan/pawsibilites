@@ -1,0 +1,133 @@
+.container {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
+  font-size: 3rem;
+  color: #354d4e;
+  margin: 1rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.Article1 {
+  width: 90%;
+  padding: 2rem;
+  border: 1px solid lightgrey;
+  border-radius: 24px;
+  background-color: rgb(255, 249, 242);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin-bottom: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+.Article1:hover {
+  transform: scale(1.01);
+}
+.artcleDetails {
+  display: flex;
+}
+
+.articletime {
+  margin-left: auto;
+}
+
+.date {
+  margin: 0;
+  margin-top: 20px;
+  color: #31363f;
+}
+
+.time {
+  color: #4f4f4f;
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+
+.maincontainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 2rem;
+}
+
+.events-container {
+  width: 80%;
+  max-height: 20rem;
+  margin-top: 15rem;
+  border-radius: 24px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  overflow: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.events-container:hover {
+  transform: scale(1.01);
+}
+
+.events-container::-webkit-scrollbar {
+  width: 10px;
+  overflow: hidden;
+}
+
+.events-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.event-contents li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.event-head {
+  color: white;
+  background-color: #31363f;
+  padding: 1rem 2rem;
+  border-radius: 20px 20px 0px 0px;
+  font-size: 0.9rem;
+}
+.event-head h2 {
+  margin: 0;
+}
+
+.event-contents {
+  margin: 0px;
+}
+
+.eventdate {
+  flex: 0 0 auto;
+  margin-right: 1rem;
+  max-width: 50px;
+  text-align: center;
+  margin-left: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.eventdetails {
+  margin: 0;
+  font-size: 0.75rem;
+  flex: 1;
+}
+.eventdetails h3,
+h4 {
+  margin: 0;
+}
+
+.events-container ul {
+  padding: 0;
+}
+
+.events-container li:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.events-container li:nth-child(even) {
+  background-color: #e7e7e7;
+}
+.events-container ul {
+  padding: 0;
+  margin: 0;
+}
